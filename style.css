@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+/* 共通 */
+header{
+	position: relative;
+}
+header img{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+main{
+	width: 1200px;
+	margin: 0 auto;
+}
+h2{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-weight: normal;
+	font-size: 30px;
+	color: #7f6666;
+}
+
+/* index.php */
+#login{
+	width: 400px;
+	margin-left: auto;
+	padding: 0;
+	border: 0;
+}
+#login ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+#login ul li a,
+#login ul li a:link,
+#login ul li a:visited{
+	display: block;
+	padding: 10px 15px;
+	color: rgb(10, 100, 150);
+	font-size: 23px;
+}
+#login ul li a:hover{
+	color: #888;
+}
+
+#content{
+	display: flex;
+}
+p.intro img{
+	height: 450px;
+	float: left;
+}
+p.discription {
+	font-size: 20px;
+	padding: 0 0 0 40px;
+	margin: auto 0;
+}
+
+/* thanks.php */
+#thanks{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/* join/index.php */
+.required {
+	background-color: #BB1850;
+	color: #fff;
+	font-size: 90%;
+	padding: 2px;
+	margin-left: 10px;
+}
+
+/* home.php */
+#best img{
+	width: 600px;
+}
+
+#home{
+	display: flex;
+	flex-direction: row;
+}
+
+#articles{
+	padding: 0 0 0 40px;
+}
+#article{
+	height: 300px;
+}
+#title{
+	font-size: 150%;
+}
+
+.paging {
+	margin-top: 10px;
+	text-align: center;
+}
+.paging li {
+	display: inline;
+	list-style: none;
+	font-size: 120%;
+	padding: 0 0 0 40px;
+}
+
+/* view.php */
+#articleTitle{
+	display: flex;
+}
+#articleTitle h2{
+	width: 600px;
+	text-align: center;
+}
+#back{
+	width: 600px;
+	font-size: 20px;
+	text-align: right;
+	margin: auto 30px auto 0;
+}
+
+.center{
+	width: 600px;
+}
+#articleContent{
+	display: flex;
+}
+#articleContent ul{
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+#articleContent li:last-of-type{
+	margin-right: 0;
+}
+#closeUp{
+	width: 600px;
+}
+.thumb{
+	width: 193px;
+	margin-right: 10px;
+}
+#paper{
+	font-size: 20px;
+	white-space: pre-wrap;
+	padding: 0 0 0 40px;
+	margin: 20px 0 auto 0;
+}
+
+#comment {
+	clear: both;
+	border-top: 1px solid #ccc;
+	padding: 10px 0;
+}
+#comment img {
+	float: left;
+	margin-right: 5px;
+}
+#comment p {
+	margin: 0;
+}
+#comment .day,
+#comment .day a {
+	font-size: 80%;
+	color: #999;
+}
+#commentText{
+	white-space: pre-wrap;
+}
+
+/* ドロワー関連 */
+/* ドロワーボタンを配置 */
+.drawer{
+	margin-left: auto;
+}
+.drawer img {
+	height: 40px;
+}
+
+/* ドロワーを右に隠しておく */
+#drawer {
+    position: fixed;
+    right: -270px;
+    top: 0;
+    width: 270px;
+    height: 100%;
+}
+
+/* ドロワーが開かれたときのスタイル */
+.show {
+    transform: translate3d(-270px, 0, 0);
+}
+
+/* 開く・閉じるアニメーション */
+#wrapper, #nav {
+    transition: transform 0.3s;
+}
+
+/* ドロワーの装飾 */
+#drawer {
+    background: #000;
+    color: white;
+}
+#drawer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#drawer li a {
+    display: block;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #114d60;
+    text-decoration: none;
+    color: #fff;
+}
+#drawer li a:hover {
+    background: #0e3e4d;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="キジトラ模様の保護猫「ごま」のファンクラブサイトです。ごまの日常を覗いてみませんか。">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ごまファンクラブ</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<header>
+    <div class="container">
+        <div class="title-block">
+            <p class="top"><img src="images/top.jpg"></p>
+        </div>
+    </div>
+</header>
+<main>
+    <nav id="login">
+        <ul>
+            <li><a href="join/index.php">ファンクラブ入会</a></li>
+            <li><a href="login.php">ログイン</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <div>
+            <h2> キジトラ模様の女の子「ごま」</h2>
+            <p class="intro"><img src="images/intro.jpg"></p>
+        </div> 
+        <p class="discription">
+            ごまは遊ぶのが大好きな女の子、<br>
+            いつも飼い主をおもちゃ箱へと誘います。<br>
+            飼い主の上でお昼寝をする甘えん坊な一面も...<br>
+            あなたもごまの日常を覗いてみませんか？</p>
+    </div>
+</main>
+</body>
+</html>
